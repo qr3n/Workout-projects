@@ -6,7 +6,6 @@ char second_symbol = '}';
 
 
 bool balance(const char* str) {
-    
     int i = 0, first_counter = 0, second_counter = 0;
 
     while (str[i] != '\0') {
